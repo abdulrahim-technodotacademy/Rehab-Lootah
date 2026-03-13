@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehab Lootah</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mscol.css">
+    <link rel="stylesheet" href="css/responsive.css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="rlHeader">
+        <div class="container">
+            <div class="csRw">
+                <div class="logo">
+                    <a href="">
+                        <img src="./assets/logo1.png" alt="">
+                    </a>
+                </div>
+                <div class="navMenu">
+                    <div class="intro-mainMenu">
+                        <ul>
+                            <li>
+                                <a href="./about.html">About Me</a>
+                            </li>
+                            <li>
+                                <a href="./leadershipimpact.html">Leadership & Impact</a>
+                            </li>
+                            <li>
+                                <a href="./speakingmedia.html">Media</a>
+                            </li>
+                            <li>
+                                <a href="./speakingvideo.html">Video</a>
+                            </li>
+                            <li>
+                                <a href="./contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="LangSelect">
+                        <ul>
+                            <!-- <li>
+                                <a href="home.html">EN</a>
+                            </li> -->
+                            <li>
+                                <a href="./ar/index-ar.html" class="arLang">العربية</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menuTxt">
+                        <p>MENU</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main class="introMain">
+        <div></div>
+        <section class="pgIntro">
+            <video autoplay muted loop playsinline>
+                <source src="./assets/intro.mp4" type="video/mp4">
+            </video>
+            <div class="container">
+                <div class="introTxt">
+                    <p>Welcome to the official website of Rehab Lootah a space dedicated to sharing her journey,
+                        vision, and impact. Here, you can explore her leadership story, achievements, media highlights,
+                        and the values that drive her work.</p>
+                    <p>Through this platform, I hope to inspire, connect, and share insights that empower individuals
+                        and communities alike. Join me in celebrating purposeful leadership, meaningful initiatives, and
+                        the power of turning vision into action.</p>
+
+                    <div class="signDiv">
+                        <div class="signature"><img src="./assets/introSign.png" alt=""></div>
+                        <div class="letsGo"><a href="./home.html">
+                            <img src="./assets/bg-arrow.png" alt="">
+                        </a></div>
+                    </div>
+                    <p>Rehab Lootah</p>
+                </div>
+            </div>
+            <div class="profImg"><img src="./assets/ladyImg.png" alt=""></div>
+            <div class="socialMedia">
+                <div class="Txt">
+                    <p>Let's Connect</p>
+                </div>
+                <div class="mediaLinks">
+                    <li><a href="https://www.instagram.com/rehab_lootah/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/rehab-lootah-b2289b28/?originalSubdomain=ae" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                    <li>
+                        <a href="https://x.com/rehab_lootah" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    </li>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+            $('.toggle').click(function () {
+            $('.toggle').toggleClass('open');
+            $('.intro-mainMenu').toggleClass('show')
+        })
+    </script>
+
+</body>
+
+</html>
