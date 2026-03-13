@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --primary-black:#282828;
+    --secondary-color:#af9967;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+p, a{
+    color: var(--primary-black);
+    font-size: 17px;
+    line-height: 1.7;
+}
+section{
+    padding-top: 60px;
+}
+main [data-aos=fade-up]{
+        transform: translate3d(0, 40px, 0);
+}
+
+
+
