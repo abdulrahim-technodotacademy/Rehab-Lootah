@@ -59,7 +59,7 @@
     right: 90px;
   }
   .portImg img {
-    width: 400px;
+    width: 380px;
   }
   .rl-Achiev {
     height: auto;
@@ -70,7 +70,7 @@
     font-size: 16px;
   }
   .newsCol {
-    display: block;
+    display: flex;
   }
   .arrowIcon {
     padding-top: 20px;
@@ -996,7 +996,7 @@
       font-size: 14px;
     }
     .newsImgHigh img{
-      width: auto;
+      /* width: auto; */
     }
     .newsItemImage{
       margin-bottom: 8px;
@@ -1355,9 +1355,13 @@ width: 60px;
   }
 
   
+    .highlightContent {
+        bottom: 25px;
+    }
 
   .highlightNews .content {
     padding: 18px;
+    padding-bottom: 0 !important;
   }
 
   .content h3 {
