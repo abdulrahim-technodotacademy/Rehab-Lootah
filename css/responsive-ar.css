@@ -1,15 +1,18 @@
 
+/* Index */
+
+.profImg img{
+padding-right: 200px !important;
+}
+
+
+/* News Section Home */
 @media screen and (min-width: 993px) and (max-width: 1196px) {
- .newsImg{
-  width: 50%;
- }
  .arrowIcon{
-  width: 50%;
   float: left;
   margin-top: -50px;
  }
  .newsTxt{
-  width: 50%;
   float: left;
   margin-top: -150px;
  }
@@ -20,4 +23,12 @@
  .newsCol{
   padding-bottom: 24px;
  }
+}
+
+
+@media screen and (min-width: 1140px) {
+  html[dir="rtl"] .profImg{
+    left: 0% !important;
+}
+
 }

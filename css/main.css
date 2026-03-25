@@ -1228,10 +1228,10 @@ input::placeholder textarea::placeholder {
 }
 
 
-.ctsTextsb {
-    /* text-align: center; */
-    /* padding-bottom: 50px; */
-}
+/* .ctsTextsb {
+    text-align: center;
+    padding-bottom: 50px;
+} */
 
 .ctsTextsb h2 {
     font-size: 26px;
@@ -1943,9 +1943,9 @@ z-index: 2;
 .galImCont{
     margin-top: 10px;
 }
-.rlGallery{
+/* .rlGallery{
 
-}
+} */
 
 @media (prefers-reduced-motion: reduce) {
 
